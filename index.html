@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0d0b">
-  <meta name="description" content="Comparativa de los dos PC de Sue y Javi, con la evolución del equipo de Sue desde 2015 y la configuración actual de Javi.">
+  <meta name="description" content="Comparativa de los tres PC de la unidad familiar de Sue y Javi, con sus componentes e historial de mejoras.">
   <title>PC de casa · Sue &amp; Javi</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4">
-  <script src="script.js?v=3" defer></script>
+  <link rel="stylesheet" href="styles.css?v=5">
+  <script src="script.js?v=4" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -20,261 +20,51 @@
       <span class="brand__mark" aria-hidden="true">SJ</span>
       <span>PC de casa <i>· Sue &amp; Javi</i></span>
     </a>
-    <span class="header-period">2015 → 2026</span>
+    <span class="header-period">HISTORIAL FAMILIAR</span>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero__copy">
         <p class="eyebrow">NUESTRO HARDWARE</p>
-        <h1>Dos equipos.<br><em>Dos historias</em> bien separadas.</h1>
-        <p class="hero__lead">El PC de Sue evoluciona desde la plataforma de 2015 hasta su renovación actual, manteniendo la RTX 2070 SUPER. El PC con RTX 5070 Ti y frontal de madera es el de Javi.</p>
+        <h1>Tres equipos.<br><em>Dos personas</em> y una historia.</h1>
+        <p class="hero__lead">Los dos PC de Sue y el equipo de Javi, separados con claridad para comparar componentes, reutilizaciones y mejoras sin perder el historial.</p>
 
         <dl class="hero__facts">
-          <div><dt>EQUIPOS REALES</dt><dd>2 PC</dd></div>
+          <div><dt>EQUIPOS</dt><dd>3 PC</dd></div>
           <div><dt>PROPIETARIOS</dt><dd>Sue · Javi</dd></div>
           <div><dt>PERIODO</dt><dd>2015–2026</dd></div>
         </dl>
       </div>
 
       <div class="hero__visual">
-        <img src="assets/hero-pc.jpg" alt="PC de Javi con caja Fractal Design North y frontal de madera">
-        <div class="visual-badge"><span>PC DE JAVI</span><b>RTX 5070 Ti</b></div>
-        <span class="year-ghost" aria-hidden="true">02</span>
+        <img src="assets/hero-pc.jpg" alt="PC 3 de Javi con caja Fractal Design North y frontal de madera">
+        <div class="visual-badge"><span>PC 3 · JAVI</span><b>RTX 5070 Ti</b></div>
+        <span class="year-ghost" aria-hidden="true">03</span>
       </div>
     </section>
 
     <nav class="pc-nav" aria-label="Equipos y comparativa">
       <div class="tabs" role="tablist" aria-label="Seleccionar vista">
-        <a id="tab-sue" role="tab" aria-selected="false" aria-controls="sue" data-view="sue" href="#sue"><span>01</span>PC de Sue</a>
-        <a id="tab-javi" role="tab" aria-selected="false" aria-controls="javi" data-view="javi" href="#javi"><span>02</span>PC de Javi</a>
-        <a id="tab-comparativa" role="tab" aria-selected="true" aria-controls="comparativa" data-view="comparativa" href="#comparativa"><span>03</span>Comparativa</a>
+        <button id="tab-pc1" type="button" role="tab" aria-selected="false" aria-controls="contenido" data-view="pc1"><span>01</span>PC 1 · Sue</button>
+        <button id="tab-pc2" type="button" role="tab" aria-selected="false" aria-controls="contenido" data-view="pc2"><span>02</span>PC 2 · Sue</button>
+        <button id="tab-pc3" type="button" role="tab" aria-selected="false" aria-controls="contenido" data-view="pc3"><span>03</span>PC 3 · Javi</button>
+        <button id="tab-comparativa" type="button" role="tab" aria-selected="true" aria-controls="contenido" data-view="comparativa"><span>04</span>Comparativa</button>
       </div>
     </nav>
 
-    <div id="contenido" class="content" aria-live="polite">
-      <section id="sue" class="view-panel" data-panel="sue" role="tabpanel" aria-labelledby="tab-sue" tabindex="0">
-        <section class="build-intro build-intro--sue">
-          <div class="build-intro__copy">
-            <p class="section-index">01 · EVOLUCIÓN 2015—2026</p>
-            <div class="build-labels">
-              <span class="status"><i></i>Equipo actual de Sue</span>
-              <span class="owner-badge">SUE</span>
-            </div>
-            <h2>PC de Sue</h2>
-            <h3>El mismo equipo, actualizado de arriba abajo.</h3>
-            <p>Partió en 2015 con el i7-6700K y la plataforma Z170. En 2026 renueva procesador, placa, almacenamiento, refrigeración y caja, pero conserva la RTX 2070 SUPER como gráfica principal.</p>
-          </div>
-
-          <div class="build-side">
-            <figure class="build-portrait build-portrait--sue">
-              <img src="assets/components/sue-case-msi-forge-320r.webp" alt="Caja MSI MAG Forge 320R Airflow del PC actualizado de Sue">
-              <figcaption><small>TORRE ACTUAL</small><strong>MSI MAG Forge 320R Airflow</strong></figcaption>
-            </figure>
-            <dl class="metric-stack">
-              <div><dt>PROCESADOR ACTUAL</dt><dd>i7-12700KF</dd></div>
-              <div><dt>MEMORIA</dt><dd>16 GB DDR4</dd></div>
-              <div><dt>GRÁFICA CONSERVADA</dt><dd>RTX 2070 SUPER</dd></div>
-            </dl>
-          </div>
-        </section>
-
-        <section class="section-block evolution-section">
-          <div class="section-head">
-            <div><p class="section-index">02 · ANTES Y AHORA</p><h2>De 2015 <em>a hoy</em></h2></div>
-            <p>No son dos ordenadores: son dos etapas del mismo PC de Sue.</p>
-          </div>
-
-          <div class="evolution-grid">
-            <article class="evolution-card evolution-card--before">
-              <img src="assets/pc1-nox.webp" alt="NOX Hummer MC Pro, caja anterior del PC de Sue">
-              <div class="evolution-card__content">
-                <div class="evolution-card__top"><span>2015</span><small>PC 1 · SUE · ETAPA ANTERIOR</small></div>
-                <h3>La plataforma original</h3>
-                <ul>
-                  <li><b>CPU</b><span>Intel Core i7-6700K</span></li>
-                  <li><b>Placa</b><span>Gigabyte GA-Z170-HD3P</span></li>
-                  <li><b>RAM</b><span>16 GB DDR4-2133</span></li>
-                  <li><b>GPU</b><span>RTX 2070 SUPER, incorporada después</span></li>
-                  <li><b>Discos</b><span>SanDisk 480 GB + Toshiba 2 TB</span></li>
-                  <li><b>Caja</b><span>NOX Hummer MC Pro</span></li>
-                </ul>
-              </div>
-            </article>
-
-            <div class="evolution-arrow" aria-hidden="true"><span>11 años</span><b>→</b></div>
-
-            <article class="evolution-card evolution-card--after">
-              <img src="assets/components/sue-case-msi-forge-320r.webp" alt="MSI MAG Forge 320R Airflow, caja actual del PC de Sue">
-              <div class="evolution-card__content">
-                <div class="evolution-card__top"><span>2026</span><small>PC 2 · SUE · ETAPA ACTUAL</small></div>
-                <h3>La renovación completa</h3>
-                <ul>
-                  <li><b>CPU</b><span>Intel Core i7-12700KF</span></li>
-                  <li><b>Placa</b><span>MSI PRO B760-P WiFi DDR4</span></li>
-                  <li><b>RAM</b><span>16 GB DDR4 en doble canal</span></li>
-                  <li><b>GPU</b><span>RTX 2070 SUPER reutilizada</span></li>
-                  <li><b>Discos</b><span>Lexar EQ790 2 TB + SanDisk 480 GB</span></li>
-                  <li><b>Fuente</b><span>MSI MAG A750GL PCIE5 II · 750 W</span></li>
-                  <li><b>Caja</b><span>MSI MAG Forge 320R Airflow</span></li>
-                </ul>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="section-block">
-          <div class="section-head">
-            <div><p class="section-index">03 · PC 2 · CONFIGURACIÓN ACTUAL</p><h2>El PC de Sue <em>por dentro</em></h2></div>
-            <p>Las piezas actuales, con la 2070 SUPER claramente identificada como componente reutilizado.</p>
-          </div>
-          <div class="parts-grid">
-            <article class="part-card"><img class="part-card__image" src="assets/components/sue-cpu-i7-12700kf.webp" alt="" loading="lazy" decoding="async"><span>01</span><small>CPU</small><h3>Intel Core i7-12700KF</h3><p>12 núcleos y 20 hilos.</p></article>
-            <article class="part-card part-card--kept"><img class="part-card__image" src="assets/components/sue-gpu-rtx-2070-super.webp" alt="" loading="lazy" decoding="async"><span>02</span><small>GPU · SE MANTIENE</small><h3>NVIDIA RTX 2070 SUPER</h3><p>8 GB reutilizados en la nueva plataforma.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/sue-board-msi-b760p.webp" alt="" loading="lazy" decoding="async"><span>03</span><small>PLACA</small><h3>MSI PRO B760-P WiFi DDR4</h3><p>Plataforma ATX con conectividad Wi-Fi.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/sue-ram-ddr4.webp" alt="" loading="lazy" decoding="async"><span>04</span><small>RAM</small><h3>16 GB DDR4</h3><p>Memoria actual en doble canal.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/sue-ssd-lexar-eq790.webp" alt="" loading="lazy" decoding="async"><span>05</span><small>SSD PRINCIPAL</small><h3>Lexar EQ790 NVMe · 2 TB</h3><p>La unidad M.2 principal del montaje.</p></article>
-            <article class="part-card part-card--kept"><img class="part-card__image" src="assets/components/sue-ssd-sandisk-plus.webp" alt="" loading="lazy" decoding="async"><span>06</span><small>SSD · SE MANTIENE</small><h3>SanDisk Plus · 480 GB</h3><p>Unidad SATA reutilizada del montaje anterior.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/sue-cooler-thermalright.webp" alt="" loading="lazy" decoding="async"><span>07</span><small>DISIPADOR</small><h3>Thermalright Phantom Spirit 120 SE</h3><p>Doble torre en acabado negro.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/sue-case-msi-forge-320r.webp" alt="" loading="lazy" decoding="async"><span>08</span><small>CAJA</small><h3>MSI MAG Forge 320R Airflow</h3><p>Frontal mallado y ventiladores ARGB.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/sue-psu-msi-a750gl.webp" alt="" loading="lazy" decoding="async"><span>09</span><small>FUENTE</small><h3>MSI MAG A750GL PCIE5 II · 750 W</h3><p>ATX 3.1, 80 Plus Gold y totalmente modular.</p></article>
-          </div>
-        </section>
-
-        <section class="section-block history-section">
-          <div class="section-head">
-            <div><p class="section-index">04 · HISTORIAL DE MEJORAS</p><h2>Cómo ha ido <em>evolucionando</em></h2></div>
-            <p>Una única línea temporal para un único PC.</p>
-          </div>
-          <ol class="history">
-            <li><span>01 · 2015</span><div><h3>Nace la plataforma original</h3><p>El i7-6700K, la placa Z170 y los 16 GB DDR4 forman la base del equipo de Sue.</p></div></li>
-            <li><span>02 · GRÁFICA</span><div><h3>Llega la RTX 2070 SUPER</h3><p>La mejora gráfica alarga la vida útil del equipo y seguirá formando parte del montaje actual.</p></div></li>
-            <li><span>03 · ALMACENAMIENTO</span><div><h3>SSD para el sistema y HDD para archivos</h3><p>El SanDisk de 480 GB aporta velocidad y el Toshiba de 2 TB cubre el almacenamiento de la etapa anterior.</p></div></li>
-            <li><span>04 · 2026</span><div><h3>Nueva plataforma, misma gráfica</h3><p>El i7-12700KF, la B760, el Lexar NVMe, la nueva refrigeración y la caja MSI modernizan el equipo sin sustituir la RTX 2070 SUPER.</p></div></li>
-          </ol>
-        </section>
-      </section>
-
-      <section id="javi" class="view-panel" data-panel="javi" role="tabpanel" aria-labelledby="tab-javi" tabindex="0">
-        <section class="build-intro build-intro--javi">
-          <div class="build-intro__copy">
-            <p class="section-index">01 · CONFIGURACIÓN ACTUAL · 2026</p>
-            <div class="build-labels">
-              <span class="status"><i></i>Equipo actual de Javi</span>
-              <span class="owner-badge">JAVI</span>
-            </div>
-            <h2>PC de Javi</h2>
-            <h3>El equipo de la RTX 5070 Ti y el frontal de madera.</h3>
-            <p>Este es un ordenador distinto al de Sue. Reúne la plataforma DDR5, la gráfica de nueva generación y la Fractal Design North como seña visual.</p>
-          </div>
-
-          <div class="build-side">
-            <figure class="build-portrait build-portrait--javi">
-              <img src="assets/components/javi-case-fractal-north.webp" alt="Caja Fractal Design North negra con frontal de madera del PC de Javi">
-              <figcaption><small>TORRE ACTUAL</small><strong>Fractal Design North</strong></figcaption>
-            </figure>
-            <dl class="metric-stack">
-              <div><dt>PROCESADOR</dt><dd>i7-14700K</dd></div>
-              <div><dt>MEMORIA</dt><dd>32 GB DDR5</dd></div>
-              <div><dt>GRÁFICA</dt><dd>RTX 5070 Ti</dd></div>
-            </dl>
-          </div>
-        </section>
-
-        <section class="section-block">
-          <div class="section-head">
-            <div><p class="section-index">02 · COMPONENTES</p><h2>El PC de Javi <em>por dentro</em></h2></div>
-            <p>La configuración del equipo moderno con caja Fractal North.</p>
-          </div>
-          <div class="parts-grid">
-            <article class="part-card"><img class="part-card__image" src="assets/components/javi-cpu-i7-14700k.webp" alt="" loading="lazy" decoding="async"><span>01</span><small>CPU</small><h3>Intel Core i7-14700K</h3><p>20 núcleos y 28 hilos.</p></article>
-            <article class="part-card part-card--javi"><img class="part-card__image" src="assets/components/javi-gpu-asus-rtx5070ti.webp" alt="" loading="lazy" decoding="async"><span>02</span><small>GPU</small><h3>ASUS Prime RTX 5070 Ti OC</h3><p>16 GB de memoria GDDR7.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/javi-board-asus-b760plus.webp" alt="" loading="lazy" decoding="async"><span>03</span><small>PLACA</small><h3>ASUS Prime B760-PLUS</h3><p>Plataforma ATX con memoria DDR5.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/javi-ram-kingston-fury.webp" alt="" loading="lazy" decoding="async"><span>04</span><small>RAM</small><h3>Kingston Fury Beast · 32 GB</h3><p>DDR5-6000 CL36 en doble canal.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/javi-ssd-samsung-990pro.webp" alt="" loading="lazy" decoding="async"><span>05</span><small>SSD</small><h3>Samsung 990 Pro · 2 TB</h3><p>NVMe de alto rendimiento.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/javi-case-fractal-north.webp" alt="" loading="lazy" decoding="async"><span>06</span><small>CAJA</small><h3>Fractal Design North</h3><p>Acabado negro y frontal de madera.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/javi-psu-gigabyte-ud850gm.webp" alt="" loading="lazy" decoding="async"><span>07</span><small>FUENTE</small><h3>Gigabyte UD850GM · 850 W</h3><p>Potencia preparada para la RTX 5070 Ti.</p></article>
-            <article class="part-card"><img class="part-card__image" src="assets/components/javi-cooler-noctua-u12s.webp" alt="" loading="lazy" decoding="async"><span>08</span><small>DISIPADOR</small><h3>Noctua NH-U12S chromax.black</h3><p>Refrigeración por aire en acabado negro.</p></article>
-          </div>
-        </section>
-
-        <section class="section-block history-section">
-          <div class="section-head">
-            <div><p class="section-index">03 · PUNTOS CLAVE</p><h2>Qué define <em>este montaje</em></h2></div>
-            <p>Las decisiones principales del PC de Javi, sin mezclarlo con la evolución de Sue.</p>
-          </div>
-          <ol class="history">
-            <li><span>01 · PLATAFORMA</span><div><h3>Intel de 14.ª generación + DDR5</h3><p>El i7-14700K y los 32 GB DDR5 forman la base de mayor rendimiento de la casa.</p></div></li>
-            <li><span>02 · GRÁFICA</span><div><h3>RTX 5070 Ti con 16 GB</h3><p>La nueva generación gráfica pertenece exclusivamente al PC de Javi.</p></div></li>
-            <li><span>03 · VELOCIDAD</span><div><h3>Samsung 990 Pro de 2 TB</h3><p>El NVMe concentra el sistema, las aplicaciones y los juegos principales.</p></div></li>
-            <li><span>04 · DISEÑO</span><div><h3>Fractal North con frontal de madera</h3><p>La caja combina ventilación y una estética sobria que diferencia claramente este equipo.</p></div></li>
-          </ol>
-        </section>
-      </section>
-
-      <section id="comparativa" class="view-panel" data-panel="comparativa" role="tabpanel" aria-labelledby="tab-comparativa" tabindex="0">
-        <section class="compare-intro">
-          <p class="section-index">01 · UNIDAD FAMILIAR</p>
-          <div class="compare-heading">
-            <h2>Dos PC reales,<br><em>cada uno en su sitio.</em></h2>
-            <p>La comparación enfrenta las configuraciones actuales. La etapa de 2015 aparece dentro del historial del PC de Sue, no como un tercer ordenador.</p>
-          </div>
-          <div class="build-choices build-choices--two">
-            <a class="build-choice build-choice--sue" data-go="sue" href="#sue">
-              <img class="build-choice__image" src="assets/components/sue-case-msi-forge-320r.webp" alt="">
-              <span>01</span>
-              <div><small>SUE · ACTUALIZADO DESDE 2015</small><strong>PC de Sue</strong><p>i7-12700KF · RTX 2070 SUPER</p></div>
-              <b>Ver evolución →</b>
-            </a>
-            <a class="build-choice build-choice--javi" data-go="javi" href="#javi">
-              <img class="build-choice__image" src="assets/components/javi-case-fractal-north.webp" alt="">
-              <span>02</span>
-              <div><small>JAVI · CONFIGURACIÓN ACTUAL</small><strong>PC de Javi</strong><p>i7-14700K · RTX 5070 Ti</p></div>
-              <b>Ver equipo →</b>
-            </a>
-          </div>
-        </section>
-
-        <section class="section-block comparison-section">
-          <div class="section-head">
-            <div><p class="section-index">02 · COMPARATIVA ACTUAL</p><h2>Sue <em>vs.</em> Javi</h2></div>
-            <p>Componentes actuales comparados sin contar la configuración de 2015 como otro PC.</p>
-          </div>
-          <table class="comparison-table">
-            <caption>Comparación de los PC actuales de Sue y Javi</caption>
-            <thead>
-              <tr class="comparison-header">
-                <th scope="col">Componente</th>
-                <th scope="col">PC de Sue</th>
-                <th scope="col">PC de Javi</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><th scope="row">Evolución</th><td data-label="PC de Sue">Actualizado desde 2015</td><td data-label="PC de Javi">Montaje actual</td></tr>
-              <tr><th scope="row">Procesador</th><td data-label="PC de Sue">Intel Core i7-12700KF</td><td data-label="PC de Javi">Intel Core i7-14700K</td></tr>
-              <tr><th scope="row">Gráfica</th><td data-label="PC de Sue">RTX 2070 SUPER · se mantiene</td><td data-label="PC de Javi">RTX 5070 Ti · 16 GB</td></tr>
-              <tr><th scope="row">Memoria</th><td data-label="PC de Sue">16 GB DDR4</td><td data-label="PC de Javi">32 GB DDR5-6000</td></tr>
-              <tr><th scope="row">Disco principal</th><td data-label="PC de Sue">Lexar EQ790 · 2 TB</td><td data-label="PC de Javi">Samsung 990 Pro · 2 TB</td></tr>
-              <tr><th scope="row">Placa</th><td data-label="PC de Sue">MSI PRO B760-P WiFi DDR4</td><td data-label="PC de Javi">ASUS Prime B760-PLUS</td></tr>
-              <tr><th scope="row">Caja</th><td data-label="PC de Sue">MSI MAG Forge 320R</td><td data-label="PC de Javi">Fractal Design North</td></tr>
-              <tr><th scope="row">Fuente</th><td data-label="PC de Sue">MSI MAG A750GL PCIE5 II · 750 W</td><td data-label="PC de Javi">Gigabyte UD850GM · 850 W</td></tr>
-            </tbody>
-          </table>
-        </section>
-      </section>
-    </div>
+    <div id="contenido" class="content" role="tabpanel" aria-live="polite" aria-labelledby="tab-comparativa"></div>
 
     <section class="closing">
-      <p>DOS EQUIPOS, UN MISMO HOGAR</p>
-      <h2>Cada PC conserva su <em>propia historia.</em></h2>
-      <a id="closing-action" href="#sue" data-go="sue">Ver el PC de Sue <span>→</span></a>
+      <p>TRES CONFIGURACIONES, UN MISMO HOGAR</p>
+      <h2>Cada equipo conserva su <em>propia historia.</em></h2>
+      <button type="button" id="closing-action">Ver PC 1 de Sue <span>→</span></button>
     </section>
   </main>
 
   <footer>
     <b>PC de casa · Sue &amp; Javi</b>
     <span>Juegos · Programación · Evolución</span>
-    <a href="https://commons.wikimedia.org/wiki/File:RAM_Module_(SDRAM-DDR4).jpg" target="_blank" rel="noreferrer">Foto RAM DDR4: ElooKoN · CC BY-SA 4.0</a>
     <a href="#inicio">Volver arriba ↑</a>
   </footer>
 </body>
