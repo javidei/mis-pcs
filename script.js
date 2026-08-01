@@ -41,7 +41,7 @@ const builds = {
     description: "El nuevo equipo de Sue renueva procesador, placa, almacenamiento principal, refrigeración y caja. Mantiene la RTX 2070 SUPER y suma el SanDisk de 480 GB procedente del PC 1.",
     status: "Equipo actual de Sue",
     theme: "sue",
-    image: "assets/pc2-msi.webp",
+    image: "assets/pc2-msi-transparent.webp",
     imageAlt: "Caja MSI MAG Forge 320R Airflow del PC 2 de Sue",
     caseName: "MSI MAG Forge 320R Airflow",
     cardYear: "2026",
@@ -60,7 +60,6 @@ const builds = {
       ["Caja", "MSI MAG Forge 320R Airflow", "Frontal mallado y ventiladores ARGB", "assets/components/sue-case-msi-forge-320r.webp"],
       ["Disipador", "Thermalright Phantom Spirit 120 SE", "Disipador de doble torre en color negro", "assets/components/sue-cooler-thermalright.webp"],
       ["Soporte GPU", "Jonsbo VC-20", "Apoyo vertical para la gráfica", "assets/components/pc2-support-jonsbo-vc20.webp"],
-      ["Sistema", "Windows 11", "Sistema operativo del nuevo montaje", "assets/components/pc2-system-windows11.webp"],
       ["Fuente", "MSI MAG A750GL PCIE5 II · 750 W", "ATX 3.1, 80 Plus Gold y totalmente modular", "assets/components/sue-psu-msi-a750gl.webp"]
     ],
     history: [
@@ -80,7 +79,7 @@ const builds = {
     description: "El equipo de Javi reúne la plataforma de mayor rendimiento de la casa: 32 GB DDR5, RTX 5070 Ti, NVMe de 2 TB y la Fractal Design North como seña visual.",
     status: "Equipo actual de Javi",
     theme: "javi",
-    image: "assets/pc3-fractal.webp",
+    image: "assets/pc3-fractal-transparent.webp",
     imageAlt: "Caja Fractal Design North negra con frontal de madera del PC 3 de Javi",
     caseName: "Fractal Design North",
     cardYear: "2026",

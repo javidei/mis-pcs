@@ -72,9 +72,9 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--sage-2); outlin
 .build-intro h3 { margin: 0 0 24px; color: #c9c6bb; font-size: clamp(22px, 2vw, 30px); font-weight: 400; }
 .build-intro__copy > p:last-child { max-width: 680px; color: var(--muted); font-size: 17px; line-height: 1.7; }
 .build-side { display: grid; gap: 22px; min-width: 0; }
-.build-portrait { position: relative; min-height: 300px; margin: 0; overflow: hidden; border: 1px solid var(--line); background: linear-gradient(145deg, #1a1d19, #0f110e); }
-.build-portrait::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, #0c0e0cf2 0, transparent 62%), linear-gradient(110deg, #0c0e0c88, transparent); }
-.build-portrait > img { position: absolute; inset: 5% auto 5% 3%; width: 88%; height: 90%; max-width: none; object-fit: contain; object-position: left center; filter: blur(1px) saturate(.84) contrast(1.02); opacity: .82; }
+.build-portrait { position: relative; min-height: 300px; margin: 0; overflow: hidden; border: 1px solid var(--line); background: radial-gradient(circle at 65% 42%, #252a22 0, #171a15 42%, #0f110e 78%); }
+.build-portrait::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, #0c0e0cf2 0, transparent 57%), linear-gradient(90deg, #0c0e0c6b, transparent 45%); }
+.build-portrait > img { position: absolute; inset: -3% 0 0; width: 100%; height: 103%; max-width: none; object-fit: contain; object-position: center; filter: blur(.7px) saturate(.86) contrast(1.04); opacity: .9; }
 .build-portrait figcaption { position: absolute; z-index: 2; left: 24px; right: 24px; bottom: 22px; display: flex; align-items: end; justify-content: space-between; gap: 18px; }
 .build-portrait small { color: var(--wood); font-size: 9px; letter-spacing: .16em; }
 .build-portrait strong { max-width: 70%; text-align: right; font: 22px "Newsreader", Georgia, serif; font-weight: 400; }
@@ -85,15 +85,15 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--sage-2); outlin
 .section-head h2, .compare-heading h2 { margin: 18px 0 0; font-size: clamp(42px, 4.7vw, 68px); font-weight: 400; line-height: 1.05; letter-spacing: -.035em; }
 .section-head > p, .compare-heading > p { margin: 0; color: var(--muted); line-height: 1.7; }
 .parts-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-.part-card { position: relative; min-height: 220px; padding: 26px; overflow: hidden; isolation: isolate; border: 1px solid var(--line); background: linear-gradient(145deg, #161914, #11130f); transition: transform .2s, border-color .2s; }
+.part-card { position: relative; min-height: 230px; padding: 27px; overflow: hidden; isolation: isolate; border: 1px solid var(--line); background: linear-gradient(145deg, #161914, #11130f); transition: transform .2s, border-color .2s; }
 .part-card:hover { transform: translateY(-4px); border-color: #5a6555; }
-.part-card::after { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(0deg, #12140ffa 0, #12140fe8 47%, #12140f42 100%); }
-.part-card__image { position: absolute; z-index: -2; top: 10px; left: 14px; width: 86%; height: 118px; object-fit: contain; object-position: left center; filter: blur(1.1px) saturate(.82) contrast(.98); opacity: .66; }
-.part-card > span { position: relative; display: block; margin-bottom: 43px; color: #565c53; font: 24px "Newsreader", Georgia, serif; }
+.part-card::after { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, #12140fff 0, #12140ff7 39%, #12140fbd 61%, #12140f24 100%), linear-gradient(0deg, #12140fcf, transparent 68%); }
+.part-card__image { position: absolute; z-index: -2; top: -4%; right: -46%; width: 100%; height: 108%; max-width: none; object-fit: contain; object-position: left center; filter: blur(.9px) saturate(.8) contrast(1.01); opacity: .76; }
+.part-card > span { position: relative; width: 62%; display: block; margin-bottom: 50px; color: #62685e; font: 24px "Newsreader", Georgia, serif; }
 .part-card small, .part-card h3, .part-card p { position: relative; }
-.part-card small { color: var(--wood); font-size: 9px; letter-spacing: .16em; }
-.part-card h3 { margin: 12px 0; font-size: 21px; font-weight: 400; line-height: 1.25; }
-.part-card p { margin: 0; color: #8d9188; font-size: 13px; line-height: 1.55; }
+.part-card small { width: 62%; display: block; color: var(--wood); font-size: 9px; letter-spacing: .16em; }
+.part-card h3 { width: 62%; margin: 12px 0; font-size: 21px; font-weight: 400; line-height: 1.25; text-shadow: 0 2px 14px #0b0d0b; }
+.part-card p { width: 62%; margin: 0; color: #969a90; font-size: 13px; line-height: 1.55; text-shadow: 0 2px 12px #0b0d0b; }
 .history-section, .comparison-section { background: #11130f; }
 .history { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .history li { display: grid; grid-template-columns: 180px 1fr; padding: 30px 0; border-bottom: 1px solid var(--line); }
@@ -172,7 +172,9 @@ footer b { color: #c8c4ba; font: 18px "Newsreader", Georgia, serif; letter-spaci
   .section-head { margin-bottom: 38px; }
   .section-head h2, .compare-heading h2 { font-size: 39px; }
   .parts-grid, .build-choices { grid-template-columns: 1fr; }
-  .part-card { min-height: 190px; }
+  .part-card { min-height: 215px; }
+  .part-card__image { right: -56%; width: 112%; height: 112%; }
+  .part-card > span, .part-card small, .part-card h3, .part-card p { width: 67%; }
   .history li { grid-template-columns: 1fr; gap: 13px; }
   .build-choices { margin-top: 45px; }
   .build-portrait { min-height: 260px; }
