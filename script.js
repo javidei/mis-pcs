@@ -23,7 +23,7 @@ const builds = {
       ["RAM", "16 GB DDR4 · 2133 MHz", "Memoria del montaje original", "assets/components/sue-ram-ddr4.webp"],
       ["SSD", "SanDisk Plus · 480 GB", "Sistema y aplicaciones antes de pasar al PC 2", "assets/components/sue-ssd-sandisk-plus.webp"],
       ["HDD", "Toshiba · 2 TB", "Almacenamiento de archivos del PC 1", "assets/components/pc1-hdd-toshiba-2tb.webp"],
-      ["Caja", "NOX Hummer MC Pro", "La torre negra con iluminación ARGB", "assets/pc1-nox.webp"],
+      ["Caja", "NOX Hummer MC Pro", "La torre negra con iluminación ARGB", "assets/components/pc1-case-nox.webp"],
       ["Fuente", "ATX · 750 W", "Modelo exacto no documentado", "assets/components/pc1-psu-atx-750w.webp"]
     ],
     history: [
@@ -129,7 +129,7 @@ let currentView = "comparativa";
 function partCards(parts) {
   return parts.map(([kind, name, detail, image], index) => `
     <article class="part-card">
-      <img class="part-card__image" src="${image}?v=6" alt="" aria-hidden="true" decoding="async">
+      <img class="part-card__image" src="${image}?v=right-20260801" alt="" aria-hidden="true" decoding="async">
       <span>${String(index + 1).padStart(2, "0")}</span>
       <small>${kind}</small>
       <h3>${name}</h3>
