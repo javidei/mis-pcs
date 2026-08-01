@@ -12,7 +12,7 @@ Todos los recortes publicados usan un lienzo transparente común de 720 × 420 p
 - SanDisk Plus: [SanDisk](https://www.sandisk.com/en-ie/products/clearance/internal-ssd/sandisk-ssd-plus-sata-iii-ssd).
 - Thermalright Phantom Spirit 120 SE: [Thermalright](https://www.thermalright.com/product/phantom-spirit-120-se-black/).
 - ASUS Prime RTX 5070 Ti OC y ASUS Prime B760-PLUS: [ASUS](https://www.asus.com/).
-- Kingston Fury Beast DDR5: [Kingston](https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr5-memory).
+- Kingston Fury Beast: fotografía facilitada por el propietario del equipo; se ha aislado el producto, eliminado el fondo y optimizado el recorte para la tarjeta.
 - Samsung 990 Pro: [Samsung](https://www.samsung.com/us/memory-storage/nvme-ssd/990-pro-pcie-4-0-nvme-ssd-1tb-sku-mz-v9p2t0b-am/).
 - Gigabyte UD850GM: [Gigabyte](https://www.gigabyte.com/Power-Supply/GP-UD850GM).
 - Noctua NH-U12S chromax.black: [Noctua](https://www.noctua.at/en/products/nh-u12s-chromax-black).

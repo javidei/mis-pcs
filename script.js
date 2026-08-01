@@ -129,7 +129,7 @@ let currentView = "comparativa";
 function partCards(parts) {
   return parts.map(([kind, name, detail, image], index) => `
     <article class="part-card">
-      <img class="part-card__image" src="${image}" alt="" aria-hidden="true" loading="lazy" decoding="async">
+      <img class="part-card__image" src="${image}?v=6" alt="" aria-hidden="true" decoding="async">
       <span>${String(index + 1).padStart(2, "0")}</span>
       <small>${kind}</small>
       <h3>${name}</h3>
