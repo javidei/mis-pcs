@@ -12,10 +12,9 @@ Todos los recortes publicados usan un lienzo transparente común de 720 × 420 p
 - SanDisk Plus: [SanDisk](https://www.sandisk.com/en-ie/products/clearance/internal-ssd/sandisk-ssd-plus-sata-iii-ssd).
 - Thermalright Phantom Spirit 120 SE: [Thermalright](https://www.thermalright.com/product/phantom-spirit-120-se-black/).
 - ASUS Prime RTX 5070 Ti OC y ASUS Prime B760-PLUS: [ASUS](https://www.asus.com/).
-- Kingston Fury Beast: fotografía facilitada por el propietario del equipo; se ha aislado el producto, eliminado el fondo y optimizado el recorte para la tarjeta.
+- Kingston Fury Beast DDR4 y DDR5: fotografías facilitadas por el propietario del equipo; se han aislado ambos productos, eliminado sus fondos y creado recortes independientes para evitar mezclar las dos generaciones de memoria.
 - Samsung 990 Pro: [Samsung](https://www.samsung.com/us/memory-storage/nvme-ssd/990-pro-pcie-4-0-nvme-ssd-1tb-sku-mz-v9p2t0b-am/).
 - Gigabyte UD850GM: [Gigabyte](https://www.gigabyte.com/Power-Supply/GP-UD850GM).
 - Noctua NH-U12S chromax.black: [Noctua](https://www.noctua.at/en/products/nh-u12s-chromax-black).
-- Fotografía DDR4: ElooKoN, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:RAM_Module_(SDRAM-DDR4).jpg), CC BY-SA 4.0. Se ha eliminado el fondo, recortado y optimizado.
 - Intel Core i7-6700K, placa Z170, HDD de 3,5 pulgadas, fuente ATX histórica y soporte de GPU: recortes de catálogo generados para completar las piezas no disponibles, sin logotipos ni texto inventado, y convertidos a fondo transparente.
 - Las fotografías de las torres NOX Hummer MC Pro, MSI MAG Forge 320R y Fractal Design North se han aislado sobre transparencia para eliminar sus fondos blancos y mantener un tratamiento visual común.

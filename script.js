@@ -20,7 +20,7 @@ const builds = {
       ["CPU", "Intel Core i7-6700K", "La base original de 6.ª generación", "assets/components/pc1-cpu-i7-6700k.webp"],
       ["GPU", "NVIDIA RTX 2070 SUPER", "La mejora gráfica que alargó su vida · 8 GB", "assets/components/sue-gpu-rtx-2070-super.webp"],
       ["Placa", "Gigabyte GA-Z170-HD3P", "Plataforma ATX de la configuración histórica", "assets/components/pc1-board-gigabyte-z170.webp"],
-      ["RAM", "16 GB DDR4 · 2133 MHz", "Memoria del montaje original", "assets/components/sue-ram-ddr4.webp"],
+      ["RAM", "16 GB DDR4 · 2133 MHz", "Memoria del montaje original", "assets/components/ram-kingston-fury-ddr4-v2.webp"],
       ["SSD", "SanDisk Plus · 480 GB", "Sistema y aplicaciones antes de pasar al PC 2", "assets/components/sue-ssd-sandisk-plus.webp"],
       ["HDD", "Toshiba · 2 TB", "Almacenamiento de archivos del PC 1", "assets/components/pc1-hdd-toshiba-2tb.webp"],
       ["Caja", "NOX Hummer MC Pro", "La torre negra con iluminación ARGB", "assets/components/pc1-case-nox.webp"],
@@ -54,7 +54,7 @@ const builds = {
       ["CPU", "Intel Core i7-12700KF", "12 núcleos y 20 hilos", "assets/components/sue-cpu-i7-12700kf.webp"],
       ["GPU", "NVIDIA RTX 2070 SUPER", "8 GB reutilizados en la nueva plataforma", "assets/components/sue-gpu-rtx-2070-super.webp"],
       ["Placa", "MSI PRO B760-P WiFi DDR4", "Plataforma ATX con conectividad Wi-Fi", "assets/components/sue-board-msi-b760p.webp"],
-      ["RAM", "16 GB DDR4", "Memoria actual en doble canal", "assets/components/sue-ram-ddr4.webp"],
+      ["RAM", "16 GB DDR4", "Memoria actual en doble canal", "assets/components/ram-kingston-fury-ddr4-v2.webp"],
       ["SSD principal", "Lexar EQ790 NVMe · 2 TB", "Almacenamiento M.2 rápido y de gran capacidad", "assets/components/sue-ssd-lexar-eq790.webp"],
       ["SSD secundario", "SanDisk Plus · 480 GB", "La única unidad trasladada desde el PC 1 por ahora", "assets/components/sue-ssd-sandisk-plus.webp"],
       ["Caja", "MSI MAG Forge 320R Airflow", "Frontal mallado y ventiladores ARGB", "assets/components/sue-case-msi-forge-320r.webp"],
@@ -92,7 +92,7 @@ const builds = {
       ["CPU", "Intel Core i7-14700K", "20 núcleos y 28 hilos", "assets/components/javi-cpu-i7-14700k.webp"],
       ["GPU", "ASUS Prime RTX 5070 Ti OC", "16 GB de memoria GDDR7", "assets/components/javi-gpu-asus-rtx5070ti.webp"],
       ["Placa", "ASUS Prime B760-PLUS", "Plataforma ATX con memoria DDR5", "assets/components/javi-board-asus-b760plus.webp"],
-      ["RAM", "Kingston Fury Beast · 32 GB", "DDR5-6000 CL36 en doble canal", "assets/components/javi-ram-kingston-fury.webp"],
+      ["RAM", "Kingston Fury Beast · 32 GB", "DDR5-6000 CL36 en doble canal", "assets/components/ram-kingston-fury-ddr5-v2.webp"],
       ["SSD", "Samsung 990 Pro · 2 TB", "NVMe de alto rendimiento", "assets/components/javi-ssd-samsung-990pro.webp"],
       ["Caja", "Fractal Design North", "Acabado negro y frontal de madera", "assets/components/javi-case-fractal-north.webp"],
       ["Fuente", "Gigabyte UD850GM · 850 W", "Potencia preparada para la RTX 5070 Ti", "assets/components/javi-psu-gigabyte-ud850gm.webp"],
@@ -129,7 +129,7 @@ let currentView = "comparativa";
 function partCards(parts) {
   return parts.map(([kind, name, detail, image], index) => `
     <article class="part-card">
-      <img class="part-card__image" src="${image}?v=right-20260801" alt="" aria-hidden="true" decoding="async">
+      <img class="part-card__image" src="${image}?v=ram-correct-20260801" alt="" aria-hidden="true" decoding="async">
       <span>${String(index + 1).padStart(2, "0")}</span>
       <small>${kind}</small>
       <h3>${name}</h3>
